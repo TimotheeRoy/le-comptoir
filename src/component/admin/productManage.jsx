@@ -16,6 +16,8 @@ import "../../App.css";
 
 import { getData } from "../../utils/api";
 
+const url = "https://api-le-comptoir.vercel.app/";
+
 function productManage() {
     const [data, setdata] = useState([]);
 
@@ -25,16 +27,13 @@ function productManage() {
 
     const handleDelete = async (id) => {
         try {
-            const response = await fetch(
-                `http://localhost:3000/deleteProd/${id}`,
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({ id }),
-                }
-            );
+            const response = await fetch(url + `deleteProd/${id}`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ id }),
+            });
 
             if (response.ok) {
                 // maj du produit dans l'interface utilisateur
@@ -56,8 +55,7 @@ function productManage() {
 
     const handleToggle = async (state, id) => {
         try {
-            const response = await fetch(
-                `http://localhost:3000/changeState/${id}`,
+            const response = await fetch(url + `changeState/${id}`,
                 {
                     method: "POST",
                     headers: {
