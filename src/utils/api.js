@@ -1,4 +1,4 @@
-const url = "https://api-le-comptoir-989i50hnz-tiimooys-projects.vercel.app/";
+const url = "https://api-le-comptoir-h3gtivixb-tiimooys-projects.vercel.app/";
 
 export async function getMeubles() {
     //sert à update la valeur de data
