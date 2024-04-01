@@ -1,12 +1,45 @@
-# React + Vite
+<h3 align="center">Le comptoir</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+<p align="center"> Here's a furniture e-commerce site created as part of a group project at Ada Tech School.
+    <br> 
+    You can check the demo <a href='https://le-comptoir.vercel.app/'>here </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installing
 
-ok du coup pour installer chakra vous faite npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-et puis pour react vous faite npm install un fois que vous êtes sur le dossier du front
-et aussi faire npm i react-router-dom pour le router sinon ca marche pas
+I use this [API](https://github.com/TimotheeRoy/api-le-comptoir)
+
+Once you've cloned the repo, run this command in your terminal
+
+```
+npm i
+```
+
+Now run :
+
+```
+npm run dev
+```
+
+And your app is ready !
+
+
+
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+-   [ViteJs](https://vuejs.org/) - Web Framework
+-   [ChakraUI](https://chakra-ui.com/) - CSS Framework
+
+## ✍️ Authors <a name = "authors"></a>
+
+-   [Tiimooy](https://github.com/TimotheeRoy)
+-   [QuangHung0](https://github.com/QuangHung0)
+-   [Helene-Stattner](https://github.com/Helene-Stattner)
+-   [ItsJessicaDaVeiga](https://github.com/ItsJessicaDaVeiga)
+-   [Aroun77](https://github.com/Aroun77)
+-   [imtinibae](https://github.com/imtinibae)
+-   [Walid0102](https://github.com/Walid0102)
+-   [maxlebro](https://github.com/maxlebro)
